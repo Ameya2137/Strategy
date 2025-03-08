@@ -30,3 +30,18 @@ This Java application models the behavior of different types of ducks using inte
 ## Technologies Used
 - **Java** (Object-Oriented Programming, Interfaces, and Polymorphism)
 - **IntelliJ IDEA** (Recommended for development)
+
+## How to Run
+1. **Cloning the Repository**:
+- **Step 1**: git clone https://github.com/Ameya2137/Strategy.git
+- **Step 2**: cd Strategy
+
+2. **Open in IntelliJ IDEA**: Click **Open** and select the Strategy folder
+
+3. **Set Up the Project**
+- Make sure the project SDK is set to Java (JDK 17 or later): Go to File → Project Structure → Project and check the SDK version.
+- Ensure that the src folder is marked as Sources Root: Right-click on src → Select Mark Directory as → Sources Root.
+
+4. **Run the Application**
+- Open **Main.java**.
+- Click on the green **Run** button in **IntelliJ**.
