@@ -22,3 +22,18 @@ public class Main {
             int choice = sc.nextInt(); // For reading user input
             Duck duck = null; // Declaring a Duck reference
 
+            // Determining which duck to create based on user choice
+            switch (choice) {
+                case 1:
+                    duck = new MallardDuck();
+                    break;
+                case 2:
+                    duck = new RedheadDuck();
+                    break;
+                case 3:
+                    duck = new RubberDuck();
+                    break;
+                case 4:
+                    duck = new DecoyDuck();
+                    break;
+
