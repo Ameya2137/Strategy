@@ -27,4 +27,6 @@ This Java application models the behavior of different types of ducks using inte
 - **RubberDuck.java**: Extends Duck; represents a rubber duck with specific behaviors.
 - **DecoyDuck.java**: Extends Duck; represents a decoy duck with specific behaviors.
 
-
+## Technologies Used
+- **Java** (Object-Oriented Programming, Interfaces, and Polymorphism)
+- **IntelliJ IDEA** (Recommended for development)
