@@ -36,4 +36,13 @@ public class Main {
                 case 4:
                     duck = new DecoyDuck();
                     break;
+                case 5:
+                    // Exiting the program
+                    System.out.println("Exiting...");
+                    sc.close();
+                    System.exit(0);
+                default:
+                    // Handling invalid input
+                    System.out.println("Invalid choice! Try again.");
+            }
 
