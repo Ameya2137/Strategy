@@ -10,7 +10,7 @@ public class Main {
         Scanner sc = new Scanner(System.in); // Creating a Scanner object for user input
 
         while (true) {
-            // Display menu options
+            // Displaying menu options
             System.out.println("\n--- Duck Simulation ---");
             System.out.println("1. Mallard Duck");
             System.out.println("2. Redhead Duck");
@@ -18,3 +18,7 @@ public class Main {
             System.out.println("4. Decoy Duck");
             System.out.println("5. Exit");
             System.out.print("Enter choice: ");
+
+            int choice = sc.nextInt(); // For reading user input
+            Duck duck = null; // Declaring a Duck reference
+
